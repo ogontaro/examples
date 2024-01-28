@@ -12,3 +12,7 @@ fi
 if [ ! -d ./kustomize ] ; then
   git clone git@github.com:ogontaro/examples_kustomize kustomize
 fi
+
+if [ ! -d ./tools ] ; then
+  git clone git@github.com:ogontaro/examples_tools tools
+fi
